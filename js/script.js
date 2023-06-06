@@ -188,7 +188,7 @@ techBtn1.classList.add("num-active");
 techBtn1.addEventListener('click', changeImg1);
 function changeImg1(){
     if (sWidth >= 1280){
-        tecImage.style.backgroundImage = "url(/assets/technology/image-launch-vehicle-portrait.jpg)";
+        tecImage.style.backgroundImage = "url(assets/technology/image-launch-vehicle-portrait.jpg)";
     }
     else if (sWidth >= 768){
         tecImage.style.backgroundImage = "url(/assets/technology/image-launch-vehicle-landscape.jpg)";
@@ -206,7 +206,7 @@ function changeImg1(){
 techBtn2.addEventListener('click', changeImg2);
 function changeImg2(){
     if (sWidth >= 1280){
-        tecImage.style.backgroundImage = "url(/assets/technology/image-spaceport-portrait.jpg)";
+        tecImage.style.backgroundImage = "url(assets/technology/image-spaceport-portrait.jpg)";
     }
     else if (sWidth  >= 768){
         tecImage.style.backgroundImage = "url(/assets/technology/image-spaceport-landscape.jpg)";
@@ -224,7 +224,7 @@ function changeImg2(){
 techBtn3.addEventListener('click', changeImg3);
 function changeImg3(){
     if (sWidth  >= 1280){
-        tecImage.style.backgroundImage = "url(/assets/technology/image-space-capsule-portrait.jpg)";
+        tecImage.style.backgroundImage = "url(assets/technology/image-space-capsule-portrait.jpg)";
     }
     else if (sWidth  >= 768){
         tecImage.style.backgroundImage = "url(/assets/technology/image-space-capsule-landscape.jpg)";
